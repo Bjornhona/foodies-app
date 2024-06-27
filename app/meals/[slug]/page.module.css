@@ -81,6 +81,10 @@
   animation: flash 1s ease-in-out infinite alternate;
 }
 
+.mainContent {
+  padding: 2rem 1rem;
+}
+
 .button {
   border: 0;
   padding: 0.5rem 1.5rem;

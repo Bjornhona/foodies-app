@@ -40,7 +40,7 @@ const MealItem = ({params}) => {
           <p className={classes.summary}>{meal.summary}</p>
         </div>
       </header>
-      <main>
+      <main className={classes.mainContent}>
         <p className={classes.instructions} dangerouslySetInnerHTML={{
           __html: meal.instructions
         }}></p>
